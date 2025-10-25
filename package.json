@@ -4,16 +4,19 @@
   "description": "Either use the object's own property, or a fallback",
   "main": "own-or.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "tap test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/isaacs/own-or.git"
   },
   "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
-  "license": "ISC",
+  "license": "BlueOak-1.0.0",
   "bugs": {
     "url": "https://github.com/isaacs/own-or/issues"
   },
-  "homepage": "https://github.com/isaacs/own-or#readme"
+  "homepage": "https://github.com/isaacs/own-or#readme",
+  "devDependencies": {
+    "tap": "^21.0.2"
+  }
 }
